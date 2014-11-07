@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>386C6DF0-4DE2-49F1-8CD2-D5E41CB1FC2E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HimkiTestMenu</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FDD1D4B7EDED4D72D16D1D52683BA0D9FBFF070C</key>
+		<string>https://github.com/Siur11/HimkiTestMenu.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HimkiTestMenu/HimkiTestMenu.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FDD1D4B7EDED4D72D16D1D52683BA0D9FBFF070C</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Siur11/HimkiTestMenu.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FDD1D4B7EDED4D72D16D1D52683BA0D9FBFF070C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FDD1D4B7EDED4D72D16D1D52683BA0D9FBFF070C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HimkiTestMenu</string>
+		</dict>
+	</array>
+</dict>
+</plist>

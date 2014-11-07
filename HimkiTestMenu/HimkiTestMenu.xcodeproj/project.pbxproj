@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AEC96B21A0CAA190093BB8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEC96B11A0CAA190093BB8C /* main.m */; };
+		4AEC96B51A0CAA190093BB8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEC96B41A0CAA190093BB8C /* AppDelegate.m */; };
+		4AEC96B81A0CAA190093BB8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEC96B71A0CAA190093BB8C /* ViewController.m */; };
+		4AEC96BB1A0CAA190093BB8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AEC96B91A0CAA190093BB8C /* Main.storyboard */; };
+		4AEC96BD1A0CAA190093BB8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AEC96BC1A0CAA190093BB8C /* Images.xcassets */; };
+		4AEC96C01A0CAA190093BB8C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AEC96BE1A0CAA190093BB8C /* LaunchScreen.xib */; };
+		4AEC96CC1A0CAA190093BB8C /* HimkiTestMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEC96CB1A0CAA190093BB8C /* HimkiTestMenuTests.m */; };
+		4AEC96D91A0CAA5F0093BB8C /* SideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEC96D81A0CAA5F0093BB8C /* SideBarController.m */; };
+		4AEC96E01A0CAA690093BB8C /* snapshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AEC96DA1A0CAA690093BB8C /* snapshot.png */; };
+		4AEC96E11A0CAA690093BB8C /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AEC96DB1A0CAA690093BB8C /* facebook.png */; };
+		4AEC96E21A0CAA690093BB8C /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AEC96DC1A0CAA690093BB8C /* twitter.png */; };
+		4AEC96E31A0CAA690093BB8C /* web.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AEC96DD1A0CAA690093BB8C /* web.png */; };
+		4AEC96E41A0CAA690093BB8C /* information.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AEC96DE1A0CAA690093BB8C /* information.png */; };
+		4AEC96E51A0CAA690093BB8C /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AEC96DF1A0CAA690093BB8C /* menu.png */; };
+		4AEC96E81A0CAA7A0093BB8C /* testView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEC96E71A0CAA7A0093BB8C /* testView.m */; };
+		4AEC96EA1A0CAABB0093BB8C /* testImage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4AEC96E91A0CAABB0093BB8C /* testImage.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AEC96C61A0CAA190093BB8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AEC96A41A0CAA190093BB8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AEC96AB1A0CAA190093BB8C;
+			remoteInfo = HimkiTestMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AEC96AC1A0CAA190093BB8C /* HimkiTestMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HimkiTestMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AEC96B01A0CAA190093BB8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AEC96B11A0CAA190093BB8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AEC96B31A0CAA190093BB8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4AEC96B41A0CAA190093BB8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4AEC96B61A0CAA190093BB8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4AEC96B71A0CAA190093BB8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4AEC96BA1A0CAA190093BB8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AEC96BC1A0CAA190093BB8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4AEC96BF1A0CAA190093BB8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4AEC96C51A0CAA190093BB8C /* HimkiTestMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HimkiTestMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AEC96CA1A0CAA190093BB8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AEC96CB1A0CAA190093BB8C /* HimkiTestMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HimkiTestMenuTests.m; sourceTree = "<group>"; };
+		4AEC96D71A0CAA5F0093BB8C /* SideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarController.h; sourceTree = "<group>"; };
+		4AEC96D81A0CAA5F0093BB8C /* SideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarController.m; sourceTree = "<group>"; };
+		4AEC96DA1A0CAA690093BB8C /* snapshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snapshot.png; sourceTree = "<group>"; };
+		4AEC96DB1A0CAA690093BB8C /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		4AEC96DC1A0CAA690093BB8C /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		4AEC96DD1A0CAA690093BB8C /* web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web.png; sourceTree = "<group>"; };
+		4AEC96DE1A0CAA690093BB8C /* information.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = information.png; sourceTree = "<group>"; };
+		4AEC96DF1A0CAA690093BB8C /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		4AEC96E61A0CAA7A0093BB8C /* testView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testView.h; sourceTree = "<group>"; };
+		4AEC96E71A0CAA7A0093BB8C /* testView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testView.m; sourceTree = "<group>"; };
+		4AEC96E91A0CAABB0093BB8C /* testImage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testImage.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AEC96A91A0CAA190093BB8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEC96C21A0CAA190093BB8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AEC96A31A0CAA190093BB8C = {
+			isa = PBXGroup;
+			children = (
+				4AEC96AE1A0CAA190093BB8C /* HimkiTestMenu */,
+				4AEC96C81A0CAA190093BB8C /* HimkiTestMenuTests */,
+				4AEC96AD1A0CAA190093BB8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AEC96AD1A0CAA190093BB8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AEC96AC1A0CAA190093BB8C /* HimkiTestMenu.app */,
+				4AEC96C51A0CAA190093BB8C /* HimkiTestMenuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AEC96AE1A0CAA190093BB8C /* HimkiTestMenu */ = {
+			isa = PBXGroup;
+			children = (
+				4AEC96D51A0CAA430093BB8C /* SideBarController */,
+				4AEC96B31A0CAA190093BB8C /* AppDelegate.h */,
+				4AEC96B41A0CAA190093BB8C /* AppDelegate.m */,
+				4AEC96B61A0CAA190093BB8C /* ViewController.h */,
+				4AEC96B71A0CAA190093BB8C /* ViewController.m */,
+				4AEC96E61A0CAA7A0093BB8C /* testView.h */,
+				4AEC96E71A0CAA7A0093BB8C /* testView.m */,
+				4AEC96E91A0CAABB0093BB8C /* testImage.jpeg */,
+				4AEC96B91A0CAA190093BB8C /* Main.storyboard */,
+				4AEC96BC1A0CAA190093BB8C /* Images.xcassets */,
+				4AEC96BE1A0CAA190093BB8C /* LaunchScreen.xib */,
+				4AEC96AF1A0CAA190093BB8C /* Supporting Files */,
+			);
+			path = HimkiTestMenu;
+			sourceTree = "<group>";
+		};
+		4AEC96AF1A0CAA190093BB8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AEC96B01A0CAA190093BB8C /* Info.plist */,
+				4AEC96B11A0CAA190093BB8C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AEC96C81A0CAA190093BB8C /* HimkiTestMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AEC96CB1A0CAA190093BB8C /* HimkiTestMenuTests.m */,
+				4AEC96C91A0CAA190093BB8C /* Supporting Files */,
+			);
+			path = HimkiTestMenuTests;
+			sourceTree = "<group>";
+		};
+		4AEC96C91A0CAA190093BB8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AEC96CA1A0CAA190093BB8C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AEC96D51A0CAA430093BB8C /* SideBarController */ = {
+			isa = PBXGroup;
+			children = (
+				4AEC96D71A0CAA5F0093BB8C /* SideBarController.h */,
+				4AEC96D81A0CAA5F0093BB8C /* SideBarController.m */,
+				4AEC96D61A0CAA510093BB8C /* Icons */,
+			);
+			name = SideBarController;
+			sourceTree = "<group>";
+		};
+		4AEC96D61A0CAA510093BB8C /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				4AEC96DA1A0CAA690093BB8C /* snapshot.png */,
+				4AEC96DB1A0CAA690093BB8C /* facebook.png */,
+				4AEC96DC1A0CAA690093BB8C /* twitter.png */,
+				4AEC96DD1A0CAA690093BB8C /* web.png */,
+				4AEC96DE1A0CAA690093BB8C /* information.png */,
+				4AEC96DF1A0CAA690093BB8C /* menu.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AEC96AB1A0CAA190093BB8C /* HimkiTestMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AEC96CF1A0CAA190093BB8C /* Build configuration list for PBXNativeTarget "HimkiTestMenu" */;
+			buildPhases = (
+				4AEC96A81A0CAA190093BB8C /* Sources */,
+				4AEC96A91A0CAA190093BB8C /* Frameworks */,
+				4AEC96AA1A0CAA190093BB8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HimkiTestMenu;
+			productName = HimkiTestMenu;
+			productReference = 4AEC96AC1A0CAA190093BB8C /* HimkiTestMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AEC96C41A0CAA190093BB8C /* HimkiTestMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AEC96D21A0CAA190093BB8C /* Build configuration list for PBXNativeTarget "HimkiTestMenuTests" */;
+			buildPhases = (
+				4AEC96C11A0CAA190093BB8C /* Sources */,
+				4AEC96C21A0CAA190093BB8C /* Frameworks */,
+				4AEC96C31A0CAA190093BB8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AEC96C71A0CAA190093BB8C /* PBXTargetDependency */,
+			);
+			name = HimkiTestMenuTests;
+			productName = HimkiTestMenuTests;
+			productReference = 4AEC96C51A0CAA190093BB8C /* HimkiTestMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AEC96A41A0CAA190093BB8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Devar OOO";
+				TargetAttributes = {
+					4AEC96AB1A0CAA190093BB8C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					4AEC96C41A0CAA190093BB8C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 4AEC96AB1A0CAA190093BB8C;
+					};
+				};
+			};
+			buildConfigurationList = 4AEC96A71A0CAA190093BB8C /* Build configuration list for PBXProject "HimkiTestMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AEC96A31A0CAA190093BB8C;
+			productRefGroup = 4AEC96AD1A0CAA190093BB8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AEC96AB1A0CAA190093BB8C /* HimkiTestMenu */,
+				4AEC96C41A0CAA190093BB8C /* HimkiTestMenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AEC96AA1A0CAA190093BB8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEC96E41A0CAA690093BB8C /* information.png in Resources */,
+				4AEC96E31A0CAA690093BB8C /* web.png in Resources */,
+				4AEC96E51A0CAA690093BB8C /* menu.png in Resources */,
+				4AEC96BB1A0CAA190093BB8C /* Main.storyboard in Resources */,
+				4AEC96C01A0CAA190093BB8C /* LaunchScreen.xib in Resources */,
+				4AEC96EA1A0CAABB0093BB8C /* testImage.jpeg in Resources */,
+				4AEC96E11A0CAA690093BB8C /* facebook.png in Resources */,
+				4AEC96E21A0CAA690093BB8C /* twitter.png in Resources */,
+				4AEC96BD1A0CAA190093BB8C /* Images.xcassets in Resources */,
+				4AEC96E01A0CAA690093BB8C /* snapshot.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEC96C31A0CAA190093BB8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AEC96A81A0CAA190093BB8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEC96D91A0CAA5F0093BB8C /* SideBarController.m in Sources */,
+				4AEC96B81A0CAA190093BB8C /* ViewController.m in Sources */,
+				4AEC96B51A0CAA190093BB8C /* AppDelegate.m in Sources */,
+				4AEC96E81A0CAA7A0093BB8C /* testView.m in Sources */,
+				4AEC96B21A0CAA190093BB8C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEC96C11A0CAA190093BB8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AEC96CC1A0CAA190093BB8C /* HimkiTestMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AEC96C71A0CAA190093BB8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AEC96AB1A0CAA190093BB8C /* HimkiTestMenu */;
+			targetProxy = 4AEC96C61A0CAA190093BB8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AEC96B91A0CAA190093BB8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AEC96BA1A0CAA190093BB8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AEC96BE1A0CAA190093BB8C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AEC96BF1A0CAA190093BB8C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AEC96CD1A0CAA190093BB8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4AEC96CE1A0CAA190093BB8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AEC96D01A0CAA190093BB8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HimkiTestMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AEC96D11A0CAA190093BB8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HimkiTestMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4AEC96D31A0CAA190093BB8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HimkiTestMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HimkiTestMenu.app/HimkiTestMenu";
+			};
+			name = Debug;
+		};
+		4AEC96D41A0CAA190093BB8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HimkiTestMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HimkiTestMenu.app/HimkiTestMenu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AEC96A71A0CAA190093BB8C /* Build configuration list for PBXProject "HimkiTestMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AEC96CD1A0CAA190093BB8C /* Debug */,
+				4AEC96CE1A0CAA190093BB8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AEC96CF1A0CAA190093BB8C /* Build configuration list for PBXNativeTarget "HimkiTestMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AEC96D01A0CAA190093BB8C /* Debug */,
+				4AEC96D11A0CAA190093BB8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4AEC96D21A0CAA190093BB8C /* Build configuration list for PBXNativeTarget "HimkiTestMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AEC96D31A0CAA190093BB8C /* Debug */,
+				4AEC96D41A0CAA190093BB8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AEC96A41A0CAA190093BB8C /* Project object */;
+}
