@@ -8,6 +8,10 @@
 
 #import "SideBarController.h"
 
+
+#define SECONDS_FOR_CLOSE 15
+
+
 @interface SideBarController()
 
 @property UIView *backgroundMenuView;
@@ -115,6 +119,10 @@
     {
         self.isOpen = !self.isOpen;
         [self performSelectorInBackground:@selector(performOpenAnimation) withObject:nil];
+        
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, SECONDS_FOR_CLOSE * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
+            [self dismissMenu];
+        });
     }
 }
 
